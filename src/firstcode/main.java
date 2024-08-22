@@ -3,7 +3,7 @@ package firstcode;
 public class main {
     public static void main(String[] args) {
         int n = 5;
-        int[] foo = { 0, 1, 2, 3, 4 };
+        int[] bib = { 0, 1, 2, 3, 4 };
 
         int m = 100;
         int[] bar;
@@ -13,7 +13,7 @@ public class main {
             bar[i] = i;
         }
 
-        System.out.println("The total number of even numbers in foo is: " + countEvenNum(foo,n));
+        System.out.println("The total number of even numbers in bib is: " + countEvenNum(bib,n));
         System.out.println("The total number of even numbers in bar is: " + countEvenNum(bar, m));
 
     }
